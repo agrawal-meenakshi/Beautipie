@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+    app:layout_scrollFlags="scroll"
+    tools:context="appdeveloper.meenakshi.com.Call_Parlour.BodyDetails"
+    android:weightSum="1">
+
+    <ScrollView
+        android:id="@+id/weddingandparty_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/weddingandparty_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="40dp">
+
+            <TextView
+                android:id="@+id/party_makeup_and_hair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Party Makeup and Hair"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+
+            <TextView
+                android:id="@+id/party_makeup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/party_makeup_and_hair"
+                android:layout_marginTop="16dp"
+                android:text="Party Makeup"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <EditText
+                android:id="@+id/party_makeup_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/party_makeup"
+                android:layout_alignBottom="@+id/party_makeup"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+
+            <TextView
+                android:id="@+id/hair_styling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/party_makeup"
+                android:layout_marginTop="16dp"
+                android:text="Hair Styling"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <EditText
+                android:id="@+id/hair_styling__cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hair_styling"
+                android:layout_alignBottom="@+id/hair_styling"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/saree_drapping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hair_styling"
+                android:layout_marginTop="16dp"
+                android:text="Saree Drapping"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/saree_drapping_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/saree_drapping"
+                android:layout_alignBottom="@+id/saree_drapping"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/indian_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/saree_drapping"
+                android:layout_marginTop="30dp"
+                android:text="Indian Mehndi"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="280dp" />
+
+            <TextView
+                android:id="@+id/hands_indian_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/indian_mehndi"
+                android:layout_marginTop="16dp"
+                android:text="Hands(each)"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="300dp" />
+
+            <EditText
+                android:id="@+id/hands_indian_mehndi_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hands_indian_mehndi"
+                android:layout_alignBottom="@+id/hands_indian_mehndi"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/legs_indian_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hands_indian_mehndi"
+                android:layout_marginTop="16dp"
+                android:text="Legs(each)"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/legs_indian_mehndi_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/legs_indian_mehndi"
+                android:layout_alignBottom="@+id/legs_indian_mehndi"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/palms_indian_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/legs_indian_mehndi"
+                android:layout_marginTop="16dp"
+                android:text="Palms(each)"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/palms_indian_mehndi_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/palms_indian_mehndi"
+                android:layout_alignBottom="@+id/palms_indian_mehndi"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/arabic_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/palms_indian_mehndi"
+                android:layout_marginTop="30dp"
+                android:text="Arabic Mehndi"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="280dp" />
+
+            <TextView
+                android:id="@+id/hands_arabic_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/arabic_mehndi"
+                android:layout_marginTop="16dp"
+                android:text="Hands(each)"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/hands_arabic_mehndi_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hands_arabic_mehndi"
+                android:layout_alignBottom="@+id/hands_arabic_mehndi"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/legs_arabic_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hands_arabic_mehndi"
+                android:layout_marginTop="16dp"
+                android:text="Legs(each)"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/legs_arabic_mehndi_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/legs_arabic_mehndi"
+                android:layout_alignBottom="@+id/legs_arabic_mehndi"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/palms_arabic_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/legs_arabic_mehndi"
+                android:layout_marginTop="16dp"
+                android:text="Palms(each)"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/palms_arabic_mehndi_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/palms_arabic_mehndi"
+                android:layout_alignBottom="@+id/palms_arabic_mehndi"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/bride"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bride"
+                android:textSize="18dp"
+                android:layout_below="@+id/palms_arabic_mehndi"
+                android:layout_marginTop="30dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/pre_bridal_package_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bride"
+                android:layout_marginTop="16dp"
+                android:text="Pre Bridal Package Gold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/pre_bridal_package_gold_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/pre_bridal_package_gold"
+                android:layout_alignBottom="@+id/pre_bridal_package_gold"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/pre_bridal_package_silver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pre_bridal_package_gold"
+                android:layout_marginTop="16dp"
+                android:text="Pre Bridal Package Silver"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/pre_bridal_package_silver_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/pre_bridal_package_silver"
+                android:layout_alignBottom="@+id/pre_bridal_package_silver"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/bridal_makeup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pre_bridal_package_silver"
+                android:layout_marginTop="16dp"
+                android:text="Bridal Makeup"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/bridal_makeup_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/bridal_makeup"
+                android:layout_alignBottom="@+id/bridal_makeup"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/bridal_mehndi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bridal_makeup"
+                android:layout_marginTop="16dp"
+                android:text="Bridal Mehndi"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/bridal_mehndi_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/bridal_mehndi"
+                android:layout_alignBottom="@+id/bridal_mehndi"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+    app:layout_scrollFlags="scroll"
+    tools:context="appdeveloper.meenakshi.com.Call_Parlour.BodyDetails"
+    android:weightSum="1">
+
+
+
+    <ScrollView
+        android:id="@+id/tipsandtoes_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/tipsandtoes_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="100dp">
+
+
+            <TextView
+                android:id="@+id/pedicure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Pedicure"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <EditText
+                android:id="@+id/pedicure_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/pedicure"
+                android:layout_alignBottom="@+id/pedicure"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+
+            <TextView
+                android:id="@+id/foot_spa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pedicure"
+                android:layout_marginTop="15dp"
+                android:text="Foot Spa"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <EditText
+                android:id="@+id/foot_spa__cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/foot_spa"
+                android:layout_alignBottom="@+id/foot_spa"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/manicure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foot_spa"
+                android:layout_marginTop="15dp"
+                android:text="Manicure"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/manicure_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/manicure"
+                android:layout_alignBottom="@+id/manicure"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <EditText
+                android:id="@+id/new_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manicure"
+                android:layout_marginTop="13dp"
+                android:maxLines="1"
+                android:textSize="14dp"
+                android:hint="Name of Service"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/new_service_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/new_service"
+                android:layout_alignBottom="@+id/new_service"
+                android:layout_alignParentEnd="true"
+                android:visibility="visible"
+                android:layout_marginEnd="12dp" />
+
+          <!--  <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:layout_below="@+id/manicure_cost"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp" /> -->
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add More"
+        android:layout_below="@+id/manicure_cost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+
+
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">-->
+
+        <RelativeLayout
+            android:id = "@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+            <LinearLayout
+                android:id="@+id/family_detail_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/family_detail_addbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add More"
+                android:layout_marginTop="500dp"
+
+
+                />
+
+
+            <Button
+                android:id="@+id/remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="280dp"
+
+                >
+            </Button>
+            <Button
+                android:id="@+id/saveitems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="150dp"></Button>
+
+
+
+
+
+        </RelativeLayout>
+   <!-- </ScrollView>-->
+
+   <!-- -->
+
+
+</LinearLayout>

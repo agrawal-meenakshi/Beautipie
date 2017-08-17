@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+    app:layout_scrollFlags="scroll"
+    tools:context="appdeveloper.meenakshi.com.Call_Parlour.FaceDetails"
+    android:weightSum="1">
+
+    <ScrollView
+        android:id="@+id/face_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/add_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="40dp">
+
+            <TextView
+                android:id="@+id/facial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facial"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+
+            <TextView
+                android:id="@+id/fruit_facial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/facial"
+                android:layout_marginTop="16dp"
+                android:text="Fruit Facial"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <EditText
+                android:id="@+id/fruit_facial_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/fruit_facial"
+                android:layout_alignBottom="@+id/fruit_facial"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+
+            <TextView
+                android:id="@+id/lotus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fruit_facial"
+                android:layout_marginTop="16dp"
+                android:text="Skin Whitening (Lotus)"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <EditText
+                android:id="@+id/lotus_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/lotus"
+                android:layout_alignBottom="@+id/lotus"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/vlcc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lotus"
+                android:layout_marginTop="16dp"
+                android:text="VLCC"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/vlcc_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vlcc"
+                android:layout_alignBottom="@+id/vlcc"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+
+            <TextView
+                android:id="@+id/o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vlcc"
+                android:layout_marginTop="16dp"
+                android:text="O3"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="227dp" />
+
+            <EditText
+                android:id="@+id/o3_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/o3"
+                android:layout_alignBottom="@+id/o3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/shehnaz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/o3"
+                android:layout_marginTop="16dp"
+                android:text="Shehnaz"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="280dp" />
+
+            <EditText
+                android:id="@+id/shehnaz_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/shehnaz"
+                android:layout_alignBottom="@+id/shehnaz"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/cleanup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shehnaz"
+                android:layout_marginTop="30dp"
+                android:text="Clean Up"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="280dp" />
+
+            <TextView
+                android:id="@+id/fruit_cleanup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cleanup"
+                android:layout_marginTop="16dp"
+                android:text="Fruit Cleanup"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="300dp" />
+
+            <EditText
+                android:id="@+id/fruit_cleanup_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/fruit_cleanup"
+                android:layout_alignBottom="@+id/fruit_cleanup"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/skin_whitening_cleanup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fruit_cleanup"
+                android:layout_marginTop="16dp"
+                android:text="Skin Whitening Cleanup"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/skin_whitening_cleanup_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/skin_whitening_cleanup"
+                android:layout_alignBottom="@+id/skin_whitening_cleanup"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/lotus_cleanup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/skin_whitening_cleanup"
+                android:layout_marginTop="16dp"
+                android:text="Lotus Cleanup"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/lotus_cleanup_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/lotus_cleanup"
+                android:layout_alignBottom="@+id/lotus_cleanup"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/threading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lotus_cleanup"
+                android:layout_marginTop="30dp"
+                android:text="Threading"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/eyebrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/threading"
+                android:layout_marginTop="16dp"
+                android:text="Eyebrow"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/eyebrow_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/eyebrow"
+                android:layout_alignBottom="@+id/eyebrow"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/upperlip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eyebrow"
+                android:layout_marginTop="16dp"
+                android:text="Upperlip"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/upperlip_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/upperlip"
+                android:layout_alignBottom="@+id/upperlip"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/forehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upperlip"
+                android:layout_marginTop="16dp"
+                android:text="Forehead"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/forehead_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/forehead"
+                android:layout_alignBottom="@+id/forehead"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/fullface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forehead"
+                android:layout_marginTop="16dp"
+                android:text="Full Face"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/fullface_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/fullface"
+                android:layout_alignBottom="@+id/fullface"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/bleach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fullface"
+                android:layout_marginTop="30dp"
+                android:text="Bleach"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/face_neck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bleach"
+                android:layout_marginTop="16dp"
+                android:text="Full Face"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/face_neck_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/face_neck"
+                android:layout_alignBottom="@+id/face_neck"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/face_neck"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="16dp"
+                android:text="Save" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

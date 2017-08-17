@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+    app:layout_scrollFlags="scroll"
+    tools:context="appdeveloper.meenakshi.com.Call_Parlour.BodyDetails"
+    android:weightSum="1">
+
+    <ScrollView
+        android:id="@+id/hair_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/hair_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="40dp">
+
+            <TextView
+                android:id="@+id/hair_spa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hair Spa"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+
+            <TextView
+                android:id="@+id/upto_shoulder_hairspa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hair_spa"
+                android:layout_marginTop="16dp"
+                android:text="Upto Shoulder"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <EditText
+                android:id="@+id/upto_shoulder_hairspa_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/upto_shoulder_hairspa"
+                android:layout_alignBottom="@+id/upto_shoulder_hairspa"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+
+            <TextView
+                android:id="@+id/upto_waist_hairspa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upto_shoulder_hairspa"
+                android:layout_marginTop="16dp"
+                android:text="Upto Waist"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <EditText
+                android:id="@+id/upto_waist_hairspa_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/upto_waist_hairspa"
+                android:layout_alignBottom="@+id/upto_waist_hairspa"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/upto_elbows_hairspa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upto_waist_hairspa"
+                android:layout_marginTop="16dp"
+                android:text="Upto Elbows"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/upto_elbows_hairspa_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/upto_elbows_hairspa"
+                android:layout_alignBottom="@+id/upto_elbows_hairspa"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/hair_cut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upto_elbows_hairspa"
+                android:layout_marginTop="30dp"
+                android:text="Hair Cut"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="280dp" />
+
+            <TextView
+                android:id="@+id/deep_u_haircut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hair_cut"
+                android:layout_marginTop="16dp"
+                android:text="Deep U"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="300dp" />
+
+            <EditText
+                android:id="@+id/deep_u_haircut_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/deep_u_haircut"
+                android:layout_alignBottom="@+id/deep_u_haircut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/feather_haircut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/deep_u_haircut"
+                android:layout_marginTop="16dp"
+                android:text="Feather"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/feather_haircut_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/feather_haircut"
+                android:layout_alignBottom="@+id/feather_haircut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/kids_haircut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/feather_haircut"
+                android:layout_marginTop="16dp"
+                android:text="Kids"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/kids_haircut_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/kids_haircut"
+                android:layout_alignBottom="@+id/kids_haircut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/layer_haircut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kids_haircut"
+                android:layout_marginTop="16dp"
+                android:text="Layer"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/layer_haircut_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/layer_haircut"
+                android:layout_alignBottom="@+id/layer_haircut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/step_haircut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layer_haircut"
+                android:layout_marginTop="16dp"
+                android:text="Step"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/step_haircut_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/step_haircut"
+                android:layout_alignBottom="@+id/step_haircut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+
+            <TextView
+                android:id="@+id/straight_haircut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/step_haircut"
+                android:layout_marginTop="16dp"
+                android:text="Straight"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/straight_haircut_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/straight_haircut"
+                android:layout_alignBottom="@+id/straight_haircut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/trim_haircut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/straight_haircut"
+                android:layout_marginTop="16dp"
+                android:text="Trim"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <EditText
+                android:id="@+id/trim_haircut_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/trim_haircut"
+                android:layout_alignBottom="@+id/trim_haircut"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/hair_colouring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/trim_haircut"
+                android:layout_marginTop="30dp"
+                android:text="Hair Colouring"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="280dp" />
+
+            <EditText
+                android:id="@+id/hair_colouring_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hair_colouring"
+                android:layout_alignBottom="@+id/hair_colouring"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/hair_styling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hair_colouring"
+                android:layout_marginTop="30dp"
+                android:text="Hair Styling"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="280dp" />
+
+            <TextView
+                android:id="@+id/blow_dry_hair_styling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hair_styling"
+                android:layout_marginTop="16dp"
+                android:text="Blow Dry"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/blow_dry_hair_styling_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/blow_dry_hair_styling"
+                android:layout_alignBottom="@+id/blow_dry_hair_styling"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/curling_hair_styling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blow_dry_hair_styling"
+                android:layout_marginTop="16dp"
+                android:text="Curling"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/curling_hair_styling_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/curling_hair_styling"
+                android:layout_alignBottom="@+id/curling_hair_styling"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/ironing_hair_styling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/curling_hair_styling"
+                android:layout_marginTop="16dp"
+                android:text="Ironing"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="175dp" />
+
+            <EditText
+                android:id="@+id/ironing_hair_styling_cost"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/ironing_hair_styling"
+                android:layout_alignBottom="@+id/ironing_hair_styling"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
